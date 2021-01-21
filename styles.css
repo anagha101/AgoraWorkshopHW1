@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+#container {
+  background-color: white;
+}
+
+.logo {
+  text-align: left;
+  width: 20%;
+  height: 10%;
+  padding-top: 30px;
+  margin-left: 30px;
+}
+
+#img-container {
+  max-width: 50%;
+  max-height: 50%;
+}
+
+.left-pane {
+  background-color: #099dfd;
+  width: 40vw;
+  height: 45vw;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+#circleContainer {
+  display: flex;
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 400px;
+  height: 400px;
+  border-radius: 1000px;
+  background-color: #ffffff4b;
+  justify-items: center;
+  margin-bottom: 40px;
+}
+
+#illustration {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+#illustrationContainer {
+  width: 500px;
+  margin: auto;
+  padding-bottom: 45px;
+}
+
+#bottomText {
+  font-size: 1.75rem;
+  color: white;
+  text-align: center;
+}
+
+.right-pane {
+  flex: 1;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.loginContainer {
+  margin-top: 20vh;
+}
+
+#headingText {
+  font-size: 2rem;
+}
+#highlighted {
+  color: #099dfd;
+}
+
+#email {
+  margin-top: 20px;
+}
+
+input {
+  margin-top: 10px;
+  padding: 5px;
+  width: 90%;
+  font-size: 1.25rem;
+  border: 2px solid #099dfd;
+  border-radius: 5px;
+}
+.submitButton {
+  background-color: #099dfd;
+  margin-top: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 15px;
+  padding-left: 15px;
+  color: white;
+  border: none;
+  font-size: 1.25rem;
+  border-radius: 10px;
+  text-align: left;
+}
+
+#flexContainer {
+  display: flex;
+  flex-direction: row;
+}
